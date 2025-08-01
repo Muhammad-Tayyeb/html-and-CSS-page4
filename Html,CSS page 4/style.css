@@ -1,0 +1,73 @@
+body {
+    align-items: center;
+    justify-content: center;
+}
+
+.main-container {
+    width: 75%;
+    height: 603px;
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+    position: relative;
+    justify-self: center;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.left-side {
+    width: 49%;
+    height: 600px;
+}
+
+nav {
+    width: 89%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    text-indent: 50px;
+    padding: 20px;
+}
+
+h1>pre {
+    text-size-adjust: 30px;
+    font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+.sub-text {
+    text-indent: 75px;
+    margin-top: 0px;
+}
+
+.sub-text2 {
+    font-size: 1rem;
+    color: #555;
+    margin: 0 auto;
+    margin-top: 120px;
+    text-align: center;
+    background-color: #ececec;
+    padding: 14px 0;
+    text-decoration-thickness: 0.5em;
+    border-radius: 8px 8px 8px 8px;
+    width: 50%;
+}
+
+.sub-text2:hover {
+    background-color: #dcdcdc;
+    cursor: pointer;
+}
+
+.right-side {
+    width: 50%;
+    position: absolute;
+    height: 599px;
+    margin-top: 0px;
+    right: 0px;
+}
+
+.sub-text3 {
+    text-align: center;
+    width: 15%;
+    margin-left: 210px;
+    border-radius: 5px;
+}
